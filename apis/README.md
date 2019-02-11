@@ -1,5 +1,5 @@
 ---
-description: Common APIs used in programming
+description: Common APIs
 ---
 
 # APIs
