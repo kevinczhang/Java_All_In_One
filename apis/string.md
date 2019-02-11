@@ -1,7 +1,3 @@
----
-description: Commonly used APIs for Strings
----
-
 # String
 
 ```java

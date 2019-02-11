@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [APIs](apis/README.md)
+* [Common APIs](apis/README.md)
   * [String](apis/string.md)
+* [Common questions](common-questions/README.md)
+  * [Basics](common-questions/basics.md)
+* [Spring](spring/README.md)
+  * [Core](spring/core.md)
 
