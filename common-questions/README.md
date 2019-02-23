@@ -43,3 +43,7 @@ And stack for a particular thread may be termed as **Run – Time Stack**. Each 
 
 The data stored in the stack is available for the corresponding thread and not available to the remaining threads. Hence we can say local data is thread safe. Each entry in the stack is called **Stack Frame** or **Activation Record**.
 
+![](../.gitbook/assets/image%20%281%29.png)
+
+![](../.gitbook/assets/image%20%285%29.png)
+
