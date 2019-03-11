@@ -1,6 +1,6 @@
 # Introduction
 
-1. In Java everything is Object which has some data and behavior. java.lang.Object is the base class of all classes. Java uses primitive data types and hence is not a pure object oriented language. primitives are immutable.
+1. In Java everything is Object which has some data and behavior. java.lang.Object is the base class of all classes. Java uses primitive data types and hence is not a pure object oriented language. P**rimitives are immutable.**
 2. Java code is guaranteed to be written once, run anywhere. On compilation, Java program is compiled into bytecode. The bytecode is platform independent and can run on any machine.
 
 {% hint style="info" %}
