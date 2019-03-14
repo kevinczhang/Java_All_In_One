@@ -7,3 +7,5 @@
 3. Synchronized statements must specify the object that provides the intrinsic lock. When synchronized\(this\) is used, you have to avoid to synchronizing invocations of other objects' methods.
 4. wait\(\) tells the calling thread to give up the monitor and go to sleep until some other thread enters the same monitor and calls notify\( \). notify\(\) wakes up the first thread that called wait\(\) on the same object.
 
+
+
