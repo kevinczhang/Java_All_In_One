@@ -10,7 +10,7 @@ description: >-
 
 The core advantage of exception handling is to maintain the normal flow of the application. Exception normally disrupts the normal flow of the application that is why we use exception handling.
 
-![Hierarchy of Java Exception classes](../.gitbook/assets/image%20%287%29.png)
+![Hierarchy of Java Exception classes](../.gitbook/assets/image%20%2812%29.png)
 
 ## Types of Exception
 
