@@ -5,6 +5,7 @@
   * [Garbage Collection](common-questions/basics.md)
   * [Exception Handling](common-questions/exception-handling.md)
 * [OOP concepts](oop-concepts/README.md)
+  * [Problems](oop-concepts/problems.md)
   * [Abstraction](oop-concepts/abstraction.md)
 * [Math and Number](number/README.md)
   * [BigInteger](number/biginteger.md)
