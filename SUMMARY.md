@@ -18,5 +18,7 @@
   * [Thread Pool](multi-thread/thread-pool.md)
   * [Lock for sync](multi-thread/lock-for-sync.md)
   * [Problems](multi-thread/problems.md)
-* [Maven](maven.md)
+* [Build Tools](build-tools/README.md)
+  * [Maven](build-tools/maven/README.md)
+    * [Build Life](build-tools/maven/build-life.md)
 
