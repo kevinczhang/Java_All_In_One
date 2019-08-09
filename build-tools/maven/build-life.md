@@ -43,5 +43,81 @@ The most commonly used build phases are**:**
 
  Build goals are the finest steps in the Maven build process. A goal can be bound to one or more build phases, or to none at all. If a goal is not bound to any build phase, you can only execute it by passing the goals name to the `mvn` command. If a goal is bound to multiple build phases, that goal will get executed during each of the build phases it is bound to.
 
+## Lifecycles Reference
 
+Maven defines 3 lifecycles in META-INF/plexus/components.xml:
+
+* [default Lifecycle](https://maven.apache.org/ref/3.5.0/maven-core/lifecycles.html#default_Lifecycle)
+* [clean Lifecycle](https://maven.apache.org/ref/3.5.0/maven-core/lifecycles.html#clean_Lifecycle)
+* [site Lifecycle](https://maven.apache.org/ref/3.5.0/maven-core/lifecycles.html#site_Lifecycle)
+
+#### default Lifecycle
+
+default lifecycle is defined **without** any associated plugin. Plugin bindings for this lifecycle are [defined separately for every packaging](https://maven.apache.org/ref/3.5.0/maven-core/default-bindings.html):
+
+```text
+<phases>
+  <phase>validate</phase>
+  <phase>initialize</phase>
+  <phase>generate-sources</phase>
+  <phase>process-sources</phase>
+  <phase>generate-resources</phase>
+  <phase>process-resources</phase>
+  <phase>compile</phase>
+  <phase>process-classes</phase>
+  <phase>generate-test-sources</phase>
+  <phase>process-test-sources</phase>
+  <phase>generate-test-resources</phase>
+  <phase>process-test-resources</phase>
+  <phase>test-compile</phase>
+  <phase>process-test-classes</phase>
+  <phase>test</phase>
+  <phase>prepare-package</phase>
+  <phase>package</phase>
+  <phase>pre-integration-test</phase>
+  <phase>integration-test</phase>
+  <phase>post-integration-test</phase>
+  <phase>verify</phase>
+  <phase>install</phase>
+  <phase>deploy</phase>
+</phases>
+```
+
+#### clean Lifecycle
+
+clean lifecycle is defined directly with its plugin bindings.
+
+```text
+<phases>
+  <phase>pre-clean</phase>
+  <phase>clean</phase>
+  <phase>post-clean</phase>
+</phases>
+<default-phases>
+  <clean>
+    org.apache.maven.plugins:maven-clean-plugin:2.5:clean
+  </clean>
+</default-phases>
+```
+
+#### site Lifecycle
+
+site lifecycle is defined directly with its plugin bindings.
+
+```text
+<phases>
+  <phase>pre-site</phase>
+  <phase>site</phase>
+  <phase>post-site</phase>
+  <phase>site-deploy</phase>
+</phases>
+<default-phases>
+  <site>
+    org.apache.maven.plugins:maven-site-plugin:3.3:site
+  </site>
+  <site-deploy>
+    org.apache.maven.plugins:maven-site-plugin:3.3:deploy
+  </site-deploy>
+</default-phases>
+```
 
