@@ -21,4 +21,5 @@
 * [Build Tools](build-tools/README.md)
   * [Maven](build-tools/maven/README.md)
     * [Build Life](build-tools/maven/build-life.md)
+    * [dependency management](build-tools/maven/dependency-management.md)
 
