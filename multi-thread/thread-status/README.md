@@ -1,6 +1,6 @@
 # Synchronization
 
-![Thread status](../.gitbook/assets/image%20%284%29.png)
+![Thread status](../../.gitbook/assets/image%20%284%29.png)
 
 1. **synchronized** keyword is used for exclusive accessing. 
 2. To make a **method synchronized**, simply add the synchronized keyword to its declaration. Then no two invocations of synchronized methods on the same object can interleave with each other. 
@@ -154,47 +154,5 @@ public class Worker {
         System.out.println("List1: " + list1.size() + "; List2: " + list2.size());
     }
 }
-```
-
-```java
-public class LockedATM {
-	private Lock lock;
-	private int balance = 100;
-	
-	public LockedATM(){
-		lock = new ReentrantLock();
-	}
-	
-	public int withdraw(int value){
-		lock.lock();
-		int temp = this.balance;
-		try{
-			Thread.sleep(100);
-			temp -= value;
-			Thread.sleep(100);
-			this.balance = temp;
-		} catch(InterruptedException e){
-			e.printStackTrace();
-		}
-		lock.unlock();
-		return temp;
-	}
-
-	public int depoit(int value){
-		lock.lock();
-		int temp = this.balance;
-		try{
-			Thread.sleep(100);
-			temp += value;
-			Thread.sleep(100);
-			this.balance = temp;
-		} catch(InterruptedException e){
-			e.printStackTrace();
-		}
-		lock.unlock();
-		return temp;
-	}
-}
-
 ```
 
