@@ -15,7 +15,7 @@
 * [Multi-thread](multi-thread/README.md)
   * [Thread creation](multi-thread/thread-creation.md)
   * [Synchronization](multi-thread/thread-status/README.md)
-    * [Lock](multi-thread/thread-status/lock.md)
+    * [ReentrantLock](multi-thread/thread-status/lock.md)
   * [Thread Pool](multi-thread/thread-pool.md)
   * [Problems](multi-thread/problems.md)
 * [Build Tools](build-tools/README.md)
