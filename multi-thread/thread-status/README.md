@@ -1,6 +1,6 @@
 # Synchronization
 
-![Thread status](../../.gitbook/assets/image%20%284%29.png)
+![Thread status](../../.gitbook/assets/image%20%285%29.png)
 
 1. **synchronized** keyword is used for exclusive accessing. 
 2. To make a **method synchronized**, simply add the synchronized keyword to its declaration. Then no two invocations of synchronized methods on the same object can interleave with each other. 
