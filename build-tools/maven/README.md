@@ -20,7 +20,7 @@ The advantage of automating the build process is that you minimize the risk of h
 
 Maven is centered around the concept of POM files \(Project Object Model\). Here is a diagram illustrating how Maven uses the POM file, and what the POM file primarily contains:
 
-![Overview of Maven core concepts](../../.gitbook/assets/image%20%2814%29.png)
+![Overview of Maven core concepts](../../.gitbook/assets/image%20%2813%29.png)
 
 ### **Dependencies and Repositories**
 
