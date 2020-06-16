@@ -12,6 +12,7 @@
   * [BigDecimal](number/bigdecimal.md)
 * [Java 8 features](apis/README.md)
   * [Lambda Expression](apis/string.md)
+  * [Functional Interfaces](apis/functional-interfaces.md)
 * [Multi-thread](multi-thread/README.md)
   * [Thread creation](multi-thread/thread-creation.md)
   * [Synchronization](multi-thread/thread-status/README.md)
