@@ -37,6 +37,8 @@ This is not all done here. Best part comes as following benefits:
 
 **Simplest answer is to enable the functionality of lambda expression in java.** Lambda expression are essentially of type of functional interface. 
 
+For example, ‘List’ or ‘Collection’ interfaces do not have ‘forEach’ method declaration. Thus, adding such method will simply break the collection framework implementations.
+
 ### **Rules for this conflict resolution are as follows:**
 
 **1\)** Most preferred are the overridden methods in classes. They will be matched and called if found before matching anything.  
