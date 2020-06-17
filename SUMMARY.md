@@ -14,6 +14,7 @@
   * [Default Methods](apis/default-methods.md)
   * [Functional Interfaces](apis/functional-interfaces.md)
   * [Lambda Expression](apis/string.md)
+  * [Stream](apis/stream.md)
 * [Multi-thread](multi-thread/README.md)
   * [Thread creation](multi-thread/thread-creation.md)
   * [Synchronization](multi-thread/thread-status/README.md)
