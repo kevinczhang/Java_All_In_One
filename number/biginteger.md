@@ -12,8 +12,10 @@ _**BigInteger**_ **can be created from a** _**byte**_ **array or** _**String or*
 
 ```java
 BigInteger biFromString = new BigInteger("1234567890987654321");
-BigInteger biFromByteArray = new BigInteger(new byte[] { 64, 64, 64, 64, 64, 64 });
-BigInteger biFromSignMagnitude = new BigInteger(-1, new byte[] { 64, 64, 64, 64, 64, 64 });
+BigInteger biFromByteArray = 
+    new BigInteger(new byte[] { 64, 64, 64, 64, 64, 64 });
+BigInteger biFromSignMagnitude = 
+    new BigInteger(-1, new byte[] { 64, 64, 64, 64, 64, 64 });
 BigInteger bi =  BigInteger.valueOf(2305843009213693951L);
 ```
 
